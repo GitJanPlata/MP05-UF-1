@@ -3,16 +3,16 @@
 
 ## 1.Naixement, creadors i evolució històrica.
 
-1.1 Python
+### 1.1 Python
 El creador de python va ser **Guido Van Rossum**, el va anar desenvolupant a finals dels anys 80 i finalment el va exposar al públic el 20 de febrer de 1991. Va ser un llenguatge creat especificament per al sistema operatiu Amoeba, donantli continuïtat al llenguatge de programació ABC amb el que Guido treballaba durant el moment, tot aixó com a projecte personal. En el seu moment era un llenguatge enfocat en ser fácil de fer servir i aprendre pero també que fos potent a l'hora de treballar, el hardware de l'epoca va fer difícil la seva implantació per la qual cosa el projecte va tardar un temps en guanyar popularitat. Avui en dia es un dels llenguatges de programació mes fets servir i demandats.
 
-1.2 Java
+### 1.2 Java
 El creador de Java va ser James Gosling , el llenguatge va començar a ser desenvolupat l'any 1991 i exposat al public per Sun Microsystems l'any 1995.
 
-1.3 Javascript
+### 1.3 Javascript
 El creador de javascript
 
-1.4 Go
+### 1.4 Go
 El creador de go 
 
 ## 2.Característiques del llenguatge.
