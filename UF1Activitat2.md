@@ -1,66 +1,21 @@
-## Llenguatge Compilat ( Java ) 
-Hem escollit Java com a llenguatge compilat ja que es un llenguatge amb el que no estem familiaritzats i ens serà útil saber quant més millor sobre el seu funcionament/sintaxi.
+## Llenguatge compilat ( C++ ) 
 
-### Compilant Java amb javac
-He instalat javac, un compilador bastant senzill que s'utilitza de la següent forma:
-![image](https://user-images.githubusercontent.com/96839905/194018723-727b5315-681f-4b9d-bc60-ef6baf647cd7.png)
+Hem escollit C++ com a llenguatge compilat.
 
-Per a passar el codi font a codi d'objecte només tindrem que executar l'arxiu amb javac, cosa que creará l'arxiu class a partir del codi font.
+### Compilant amb C++
+He creat l'arxiu de codi font .cpp amb nano i he afegit el codi per al dau de 6 cares amb c++.
 
-Extensions dels fitxers de codi font i objecte:
+![image](https://user-images.githubusercontent.com/96839905/195153331-2d83afa3-ec06-4213-a096-2e51c3172a2f.png)
 
-![image](https://user-images.githubusercontent.com/96839905/194020406-b906b9cf-c92c-49b1-8572-a18c51b65d4f.png)
+Per compilar c++ desde la terminal farem servir g++ com a compilador. Un cop realitzada la comanda del g++ tindrem l'arxiu compilat llest per executar-se.
 
-### Exemple de codi
+![image](https://user-images.githubusercontent.com/96839905/195157756-d2481770-480c-4dc4-8e26-6221b8d1090c.png)
 
-Programa de dau de 6 cares amb Java (he fet servir nano per escriure el codi desde la terminal)
 
-```// Inici del programa, logica y declaració de variables:
+### Avantatges i desventatges de fer servir un llenguatge compilat.
 
-public class java6 {
-  public static void main(String[] args) {
-      
-     int dau = (int) Math.floor(Math.random()*6 + 1); 
- // math random genera un número entre 0 i 6 aquest no inclós ( per això el +1 final) i desprès math floor s'arrodoneix els decimals del resultat a la baixa (de forma que no podem obtenir un 7 si surt mes de 6.5).
-    
- // Output de dades
- 
-     System.out.println("Resultat de la cara obtinguda: ");
-     ;
-     
-// Switch per al resultat del math random/floor (resultat del dau)
-
-    switch (dau) {
-    case 1:
-      System.out.println("T'ha tocat el número \"un\".");
-      break;
-    case 2:
-      System.out.println("T'ha tocat el número  \"dos\".");
-      break;
-    case 3:
-      System.out.println("T'ha tocat el número \"tres\".");
-      break;
-    case 4:
-      System.out.println("T'ha tocat el número \"quatre\".");
-      break;
-    case 5:
-      System.out.println("T'ha tocat el número \"cinc\".");
-      break;
-    case 6:
-      System.out.println("T'ha tocat el número\"sis\".");
-      break;
-    default:
-      System.out.println("Número no disponible al dau >:(");
-    }
-  }
-}
-```
-### Avantatges de fer servir un llenguatge compilat
-
-### IDE's per al desenvolupament amb java
-
-IntelliJ, VisualStudio Code, Eclipse.
-
+### IDE's per al desenvolupament amb C++
+VSCode, C++ Builder, CodeLite
 
 ## Llenguatge Interpretat
 Com a llenguatge interpretat ens ha tocat realitzar un dau de 6 cares utilitzant R desde la línia de comandes.
@@ -114,4 +69,65 @@ Aunque sigui multiplataforma, si la màquina no te l'interpret no funcionara
 
 Visual Studio code, RStudio i Geany
 
+## Llenguatge de VM ( Java ) 
+Hem escollit Java com a llenguatge de Maquina virtual.
 
+### Compilant Java amb javac
+He instalat javac, un compilador bastant senzill que s'utilitza de la següent forma:
+![image](https://user-images.githubusercontent.com/96839905/194018723-727b5315-681f-4b9d-bc60-ef6baf647cd7.png)
+
+Per a passar el codi font a ByteCodde només tindrem que executar l'arxiu amb javac, cosa que creará l'arxiu class a partir del codi font.
+
+Extensions dels fitxers de codi font i ByteCode:
+
+![image](https://user-images.githubusercontent.com/96839905/194020406-b906b9cf-c92c-49b1-8572-a18c51b65d4f.png)
+
+### Exemple de codi
+
+Programa de dau de 6 cares amb Java (he fet servir nano per escriure el codi desde la terminal)
+
+```// Inici del programa, logica y declaració de variables:
+
+public class java6 {
+  public static void main(String[] args) {
+      
+     int dau = (int) Math.floor(Math.random()*6 + 1); 
+ // math random genera un número entre 0 i 6 aquest no inclós ( per això el +1 final) i desprès math floor s'arrodoneix els decimals del resultat a la baixa (de forma que no podem obtenir un 7 si surt mes de 6.5).
+    
+ // Output de dades
+ 
+     System.out.println("Resultat de la cara obtinguda: ");
+     ;
+     
+// Switch per al resultat del math random/floor (resultat del dau)
+
+    switch (dau) {
+    case 1:
+      System.out.println("T'ha tocat el número \"un\".");
+      break;
+    case 2:
+      System.out.println("T'ha tocat el número  \"dos\".");
+      break;
+    case 3:
+      System.out.println("T'ha tocat el número \"tres\".");
+      break;
+    case 4:
+      System.out.println("T'ha tocat el número \"quatre\".");
+      break;
+    case 5:
+      System.out.println("T'ha tocat el número \"cinc\".");
+      break;
+    case 6:
+      System.out.println("T'ha tocat el número\"sis\".");
+      break;
+    default:
+      System.out.println("Número no disponible al dau >:(");
+    }
+  }
+}
+```
+### Avantatges de fer servir un llenguatge de MV
+
+### IDE's per al desenvolupament amb java
+
+IntelliJ, VisualStudio Code, Eclipse.
