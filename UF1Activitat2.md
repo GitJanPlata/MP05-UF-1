@@ -1,18 +1,49 @@
 ## Llenguatge compilat ( C++ ) 
-
 Hem escollit C++ com a llenguatge compilat.
+
 
 ### Compilant amb C++
 He creat l'arxiu de codi font .cpp amb nano i he afegit el codi per al dau de 6 cares amb c++.
 
 ![image](https://user-images.githubusercontent.com/96839905/195153331-2d83afa3-ec06-4213-a096-2e51c3172a2f.png)
 
-Per compilar c++ desde la terminal farem servir g++ com a compilador. Un cop realitzada la comanda del g++ tindrem l'arxiu compilat llest per executar-se.
+Per compilar c++ desde la terminal farem servir g++ com a compilador. Un cop realitzada la comanda del g++ tindrem l'arxiu de codi objecte compilat i llest per executar-se.
 
 ![image](https://user-images.githubusercontent.com/96839905/195157756-d2481770-480c-4dc4-8e26-6221b8d1090c.png)
 
+Per executar el codi compilat simplement tindrem que fer servir la comanda ./ a la terminal.
+
+![image](https://user-images.githubusercontent.com/96839905/195168548-e968e04c-5808-499e-81d7-fe043666343b.png)
 
 ### Avantatges i desventatges de fer servir un llenguatge compilat.
+
+**Avantatges**:
+
+El codi executable obtingut es el mes eficient i rápid.
+
+S'utilitza principalment per a desenvolupament d'aplicacions d'escriptori.
+
+**Desventatges**:
+
+ Normalment requereixen més recursos del sistema i consumeixen mes capacitat de hardware.
+ 
+ Requereix finalitzar el programa per a poder executar-lo.
+ 
+ La compilació s'ha de fer cada cop que el codi font es modifica.
+ 
+ El tipat de dades es mes restrictiu, en molts casos rígid.
+ 
+ Els arxius executables solen ocupar mes espai.
+ 
+ Poc portable.
+ 
+### Webgrafía:
+
+https://hetpro-store.com/TUTORIALES/compilar-cpp-g-linux-en-terminal-leccion-1/
+
+https://es.stackoverflow.com/questions/156709/lanzamiento-de-dados-en-c
+
+https://ehack.info/lenguajes-compilados-vs-lenguajes-interpretados/
 
 ### IDE's per al desenvolupament amb C++
 VSCode, C++ Builder, CodeLite
@@ -61,7 +92,7 @@ Al poder executarse en el navegador client, disminueix la carga de treball del s
 
 #### Desaventatges
 
-A la hora de l'execució del programa, quan compilam el transformam a codi màquina i això fa que baixa la velocitat de l'execució
+A la hora de l'execució del programa, quan compilem el transformem a codi màquina i això fa que baixi la velocitat d'execució
 
 Aunque sigui multiplataforma, si la màquina no te l'interpret no funcionara
 
@@ -76,7 +107,7 @@ Hem escollit Java com a llenguatge de Maquina virtual.
 He instalat javac, un compilador bastant senzill que s'utilitza de la següent forma:
 ![image](https://user-images.githubusercontent.com/96839905/194018723-727b5315-681f-4b9d-bc60-ef6baf647cd7.png)
 
-Per a passar el codi font a ByteCodde només tindrem que executar l'arxiu amb javac, cosa que creará l'arxiu class a partir del codi font.
+Per a passar el codi font a ByteCode només tindrem que executar l'arxiu amb javac, cosa que creará l'arxiu class a partir del codi font.
 
 Extensions dels fitxers de codi font i ByteCode:
 
@@ -126,8 +157,20 @@ public class java6 {
   }
 }
 ```
-### Avantatges de fer servir un llenguatge de MV
+### Avantatges i desventatges de fer servir un llenguatge de MV
+**Avantatges**:
+
+Son l'opció mes versàtil del les 3 ja que la propia màquina virtual fa d'interpret i compilador així no t'has de preocupar de si la maquina tindra la capacitat de llegir o no el codi.
+
+**Desventatges**:
+
+Agregan gran complexitat al sistema en temps d'execució, el que implica treball extra per a la maquina.
+
+Son més lents que els llenguatges completament compilats, a causa de la sobrecàrrega que genera tenir una capa de programari intermèdia entre l'aplicació i la màquina.
 
 ### IDE's per al desenvolupament amb java
 
 IntelliJ, VisualStudio Code, Eclipse.
+
+### Webgrafía
+https://ehack.info/lenguajes-compilados-vs-lenguajes-interpretados/
