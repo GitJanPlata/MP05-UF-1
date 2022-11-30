@@ -61,7 +61,7 @@ public class proves {
   - **Diagrama: ![image](https://user-images.githubusercontent.com/96839905/204747067-befadecf-8293-488a-9308-0bfd4f7ce879.png)
 **
   - **Resultat CC:9-9+2 = 2**
-  - **Resultat proves camins: if hora <= 8 ( 6 = True, 9 = false)  if hora >=20 ( 15 = false, 23 = true**
+  - **Resultat proves camins: if hora <= 8 ( 6 = True, 9 = false)  if hora >=20 ( 15 = false, 23 = true)**
 
 5. Investiga sobre les proves de caixa negra:
 
