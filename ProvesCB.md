@@ -43,9 +43,9 @@ public class proves {
 }
 ```
 
-  - **Diagrama: ![image](https://user-images.githubusercontent.com/96839905/204743497-c3f99c65-5280-4354-a247-d7e19969b515.png)
+  - **Diagrama: ![image](https://user-images.githubusercontent.com/96839905/204747661-ac9a1110-65c5-43d1-ba61-da61cd77d61b.png)
 **
-  - **Resultat CC: 4-5+2 = 1**
+  - **Resultat CC: 8-6+2 = 4**
 
 4. Dibuixa el diagrama de flux representat per aquest codi, calcula la seva CC i crea una prova per a cada camí posible:
 
@@ -58,12 +58,14 @@ public class proves {
         return llums;
     }
 ```
-  - **Diagrama: ![image](https://user-images.githubusercontent.com/96839905/204745855-2fa3c530-32b1-41d4-ac31-1e1e3be98865.png)
+  - **Diagrama: ![image](https://user-images.githubusercontent.com/96839905/204747067-befadecf-8293-488a-9308-0bfd4f7ce879.png)
 **
-  - **Resultat CC:8-8+2 = 2**
+  - **Resultat CC:9-9+2 = 2**
   - **Resultat proves camins: **
 
 5. Investiga sobre les proves de caixa negra:
 
-  - Què són?
-  - Quina diferència principal tenen sobre les de caixa blanca?
+  - **Què són?**
+  -Son probes de programari com les de caixa blanca, pero mes senzilles i amb altres propòsits que les de caixa blanca de forma que poden ser executades per algu sense ple coneixement al contrari de les de caixa blanca.
+  - **Quina diferència principal tenen sobre les de caixa blanca?**
+  - Les probes de caixa negra son proves en les que només es te en compte els valors de l'entrada i la sortida del programa, sense parar a tenir en compte l'estructura i funcionament d'aquest, contrari al que fan les de caixa blanca.
